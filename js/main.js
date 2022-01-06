@@ -24,3 +24,9 @@ window.onscroll = () => {
     menuBtn.classList.remove('fa-times');
     navbar.classList.remove('active');
 }
+
+const swiper = new Swiper('.swiper', {
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 60,
+  });
